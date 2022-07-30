@@ -126,7 +126,8 @@ body {
 		.active {
 			color: s.$textActive;
 		}
-
+.main {
+	display: none;
 		.about {
 			width: 100%;
 			padding: 50px 0;
@@ -454,7 +455,7 @@ body {
 				}
 			}
 		}
-
+	}
 		.footer {
 			background-color: dimgray;
 			width: 100%;
@@ -490,7 +491,7 @@ body {
 			}
 
 			&__link:hover {
-				color: #fff;
+				color: s.$navTextColor;
 				font-weight: 300;
 			}
 			&__copyright {
