@@ -1,0 +1,23 @@
+@mixin sectionTextStyle() {
+    font: {
+        family: "AllerBold", sans-serif;
+        weight: bold;
+        size: 2em;
+    }
+    text: {
+        transform: uppercase;
+        align: center;
+    }
+}
+
+@mixin inputStyle() {
+    border: {
+        width: 0px;
+        style: none;
+        color: transparent;
+        top: 2px solid rgba(0, 0, 0, .8);
+    }
+    overflow: hidden;
+    background-color: rgba(247, 245, 245, 0.812);
+    margin-top: 10px;
+}

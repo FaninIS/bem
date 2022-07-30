@@ -1,0 +1,27 @@
+// Font for sections headings
+
+@font-face {
+    font-family: "AllerBold", sans-serif;
+    src: url("../../fonts/aller/aller.woff2") format("woff2"), url("../../fonts/aller/aller.woff") format("woff"),
+        url("../../fonts/aller/aller.ttf") format("ttf");
+}
+
+
+// Font for subsection headings and navigation menu buttons
+
+@font-face {
+    font-family: "Fira_SansSemibold", sans-serif;
+    src: url("../../fonts/fira_Sans/fira_Sans-semibold.woff2") format("woff2"),
+        url("../../fonts/fira_Sans/fira_Sans-semibold.woff") format("woff"),
+        url("../../fonts/fira_Sans/fira_Sans-semiBold.otf") format("otf");
+}
+
+
+// Font for subsections content
+
+@font-face {
+    font-family: "QuickSandRegular", sans-serif;
+    src: url("../../fonts/quickSand/quicksand.woff2") format("woff2"),
+        url("../../fonts/quickSand/quicksand.woff") format("woff"),
+        url("../../fonts/quickSand/quicksand.otf") format("otf");
+}
